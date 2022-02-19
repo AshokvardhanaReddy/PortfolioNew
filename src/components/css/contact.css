@@ -1,10 +1,9 @@
 
 #contact_div{
     text-align: center;
+    /* border:1px solid red; */
 }
-#contactMainDiv{
-    height:50vh;
-}
+
 #contactHeading{
     text-align: center;
     padding:1rem;

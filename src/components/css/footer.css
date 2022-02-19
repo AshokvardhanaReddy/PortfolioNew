@@ -1,52 +1,8 @@
 #footerDiv{
-   
     background-color: grey;
-    margin-top:17.5rem;
     text-align: center;
     color:white;
 }
 #footerContentDiv{
     padding:1rem;
-}
-
-@media (max-width:1920px){
-    #footerDiv{
-        margin-top:6.5rem;
-    }
-  
-}
-
-@media (max-width:1280px){
-    #footerDiv{
-        margin-top:14.5rem;
-    }
-  
-}
-
-@media (max-width:1024px){
-    #footerDiv{
-        margin-top:15.5rem;
-    }
-  
-}
-
-@media (max-width:850px){
-    #footerDiv{
-        margin-top:5.5rem;
-    }
-  
-}
-
-@media (max-width:600px){
-    #footerDiv{
-        margin-top:8.5rem;
-    }
-  
-}
-
-@media (max-width:385px){
-    #footerDiv{
-        margin-top:18rem;
-    }
-  
 }
