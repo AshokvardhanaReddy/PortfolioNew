@@ -5,23 +5,21 @@ import { About } from "./components/about";
 import { Skills } from "./components/skills";
 import { Projects } from "./components/projects";
 import { Contact } from "./components/contact";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import {HashLink as Link}  from "react-router-hash-link" 
+import { Footer } from "./components/footer";
 
 function App() {
   return (
     <>
-    <>
-
-    </>
-    <div className="App">
-    <NavBar/>
-      <Intro />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-    </div>
+      <></>
+      <div className="App">
+        <NavBar />
+        <Intro />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 }

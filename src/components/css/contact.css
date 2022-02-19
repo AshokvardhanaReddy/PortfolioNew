@@ -37,24 +37,28 @@
     font-size:1.4rem;
 }
 
-input{
+.inputBox{
     width:80%;
-    background-color: aqua;
-    border: none;
     margin-bottom:0.7rem;
     font-size:1rem;
-    color: black;
+    border:2px solid aqua;
+    
 }
 
 #messageInput{
     height:140px;
+    border:2px solid aqua;
 }
 #formSubmitButton{
-   background-color: aqua;
+   background-color: grey;
    font-size:1.2rem;
    padding:0.5rem 2rem 0.5rem 2rem;
    border:none;
-   color: black;
+   color: white;
+}
+#formSubmitButton:hover{
+    background-color: aqua;
+    color:black;
 }
 
 @media (max-width:1200px){
@@ -67,8 +71,7 @@ input{
         font-size:1.6rem;
     }
     
-    input{
-        border: none;
+    .inputBox{
         margin-bottom:0.7rem;
         font-size:1rem;
         color: black;
@@ -79,15 +82,14 @@ input{
         height:10rem;
     }
     #formSubmitButton{
-       background-color: aqua;
        font-size:1.2rem;
        padding:0.5rem 2rem 0.5rem 2rem;
        border:none;
-       color: black;
+       color: white;
     }
     #formSubmitButton:hover{
-        background-color: green;
-        color:white;
+        background-color: aqua;
+        color:black;
     }
 }
 
@@ -108,7 +110,7 @@ input{
         font-size:1.6rem;
     }
     
-    input{
+    .inputBox{
         width:90%;
         border: none;
         margin-bottom:0.7rem;
@@ -121,15 +123,14 @@ input{
         height:10rem;
     }
     #formSubmitButton{
-       background-color: aqua;
        font-size:1.2rem;
        padding:0.5rem 2rem 0.5rem 2rem;
        border:none;
-       color: black;
+       color: white;
     }
     #formSubmitButton:hover{
-        background-color: green;
-        color:white;
+        background-color: aqua;
+        color:black;
     }
 }
 

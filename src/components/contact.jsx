@@ -36,19 +36,19 @@ function Contact(){
            <h3 id="sendMailHeading">Send Mail : </h3>
            
            <form ref={formRef} onSubmit={formSubmit}>
-               <input type="text" placeholder="Enter Your Name" name="user_name"></input>
-               <input type="text" placeholder="Enter Your Subject" name="user_subject"></input>
-               <input type="text" placeholder="Enter Your Email" name="user_email"></input>
-               <input id="messageInput" type="text" placeholder="Write Your Message Here" name="message"></input>
+               <input className="inputBox" type="text" placeholder="Enter Your Name" name="user_name"></input>
+               <input className="inputBox" type="text" placeholder="Enter Your Subject" name="user_subject"></input>
+               <input className="inputBox" type="text" placeholder="Enter Your Email" name="user_email"></input>
+               <input className="inputBox" id="messageInput" type="text" placeholder="Write Your Message Here" name="message"></input>
                <br></br>
                <button id="formSubmitButton">Submit</button>
            </form>
 
            </div>
-           <br></br>
+           {/* <br></br>
          <br></br>
          <br></br>
-         <br></br>
+         <br></br> */}
           </div>
          </div>
        

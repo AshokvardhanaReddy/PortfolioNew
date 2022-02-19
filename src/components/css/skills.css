@@ -24,6 +24,7 @@
     flex-wrap:wrap;
     justify-content: space-around;
     width:40%;
+    /* border:1px solid red; */
 }
 .texhStackSvg_2{
     width:8rem;
@@ -90,5 +91,12 @@
     }
     #expressSvg{
         margin-left:5rem;
+    }
+}
+
+@media (max-width:1920px){
+
+    #techStackToolsDiv_2{
+       margin:auto;
     }
 }
