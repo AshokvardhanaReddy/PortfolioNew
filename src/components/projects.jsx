@@ -31,6 +31,7 @@ function Projects() {
               <p className="toolsUsed">CSS</p>
               <p className="toolsUsed">JavaScript</p>
             </div>
+            <div id="projectButtons">
             <button class="viewProjectButton">
               <a
                 class="viewProjectAnchor"
@@ -41,6 +42,17 @@ function Projects() {
                 GitHub Project Link{" "}
               </a>
             </button>
+            <button class="viewProjectButton">
+              <a
+                class="viewProjectAnchor"
+                href="https://peaceful-mirzakhani-b8f925.netlify.app/"
+                target="_blank"
+              >
+                {" "}
+                Project Deploy Link{" "}
+              </a>
+            </button>
+            </div>
           </div>
         </div>
 
@@ -70,6 +82,7 @@ function Projects() {
               <p className="toolsUsed">JavaScript</p>
               <p className="toolsUsed">MongoDB</p>
             </div>
+            <div id="projectButtons">
             <button class="viewProjectButton">
               <a
                 class="viewProjectAnchor"
@@ -80,6 +93,17 @@ function Projects() {
                 GitHub Project Link{" "}
               </a>
             </button>
+            <button class="viewProjectButton">
+              <a
+                class="viewProjectAnchor"
+                href="https://dinoweblog.github.io/FW13-T48-BebodywiseClone-Project/"
+                target="_blank"
+              >
+                {" "}
+                Project Deploy Link{" "}
+              </a>
+            </button>
+            </div>
           </div>
        
         </div>

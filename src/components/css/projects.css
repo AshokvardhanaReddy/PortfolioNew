@@ -52,12 +52,18 @@
     color:black;
     background-color: aqua;
 }
+#projectButtons{
+  
+    width:70%;
+    margin:auto;
+}
 .viewProjectButton{
     background-color: aqua;
     margin-bottom:1rem;
     border-radius:0.5rem;
     padding:0.3rem;
     border:none;
+    margin-right:1rem;
 }
 .viewProjectAnchor{
     text-decoration: none;
