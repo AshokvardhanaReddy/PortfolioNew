@@ -40,13 +40,16 @@
     width:80%;
     margin-bottom:0.7rem;
     font-size:1rem;
-    border:2px solid aqua;
+    text-align: center;
+    padding:.3rem;
+    /* border:2px solid aqua; */
     
 }
 
 #messageInput{
     height:140px;
-    border:2px solid aqua;
+    /* border:2px solid aqua; */
+    text-align: center;
 }
 #formSubmitButton{
    background-color: grey;
